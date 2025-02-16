@@ -27,7 +27,7 @@ const ControlMenu = () => {
             absolute top-5 left-5
             p-2
             border-2
-            border-secondary-100
+            border-primary-100
             rounded-xl
             bg-black
           "

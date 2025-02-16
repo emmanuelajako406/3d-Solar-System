@@ -8,7 +8,7 @@ interface SunProps {
 }
 
 export default function Sun({ position, radius }: SunProps) {
-  const sunTexture = useLoader(TextureLoader, "/images/bodies/sun_2k.webp");
+  const sunTexture = useLoader(TextureLoader, "/images/bodies/8k_sun.jpg");
 
   return (
     <mesh position={position}>

@@ -48,7 +48,7 @@ const PlanetMenu: React.FC<PlanetMenuProps> = ({ planets }) => {
           <Button 
             key={planet.id} 
             variant='flat' 
-            color='secondary' 
+            color='primary' 
             size='sm' 
             onClick={() => handleSelect(planet.name)}
             isDisabled={selectedPlanet?.id === planet.id}
